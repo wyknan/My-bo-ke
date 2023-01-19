@@ -1,0 +1,58 @@
+{
+  "id": "3867766",
+  "name": "my boke",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "108916",
+      "name": "日历",
+      "font_class": "rili",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "4765896",
+      "name": "eye",
+      "font_class": "eye",
+      "unicode": "e78f",
+      "unicode_decimal": 59279
+    },
+    {
+      "icon_id": "4766685",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e7c6",
+      "unicode_decimal": 59334
+    },
+    {
+      "icon_id": "15726936",
+      "name": "统计",
+      "font_class": "tongji",
+      "unicode": "e642",
+      "unicode_decimal": 58946
+    },
+    {
+      "icon_id": "15838540",
+      "name": "time",
+      "font_class": "time",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "20022018",
+      "name": "信件",
+      "font_class": "xinjian",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "23442230",
+      "name": "icon_网格人员管理",
+      "font_class": "icon_wanggerenyuanguanli",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

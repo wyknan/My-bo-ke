@@ -1,0 +1,23 @@
+.nav--active{
+    color: yellow !important;
+}
+.hover-animate>a{
+    position: relative;
+    z-index: 1;
+}
+.hover-animate>a::after{
+    top: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 0%;
+    height: 100%;
+    background-color: rgb(201, 228, 192);
+    z-index: -1;
+    left: 50%;
+}
+.hover-animate>a:hover::after{
+    left: 0%;
+    transition: all 0.5s;
+    width: 100%;
+}
