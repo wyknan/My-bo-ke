@@ -1,3 +1,9 @@
+body{
+    background-color: rgba(229, 248, 228, 0.904);
+}
+a {
+    text-decoration: none;
+}
 .nav--active{
     color: yellow !important;
 }
@@ -12,7 +18,7 @@
     display: block;
     width: 0%;
     height: 100%;
-    background-color: rgb(201, 228, 192);
+    background-color: rgb(217, 236, 211);
     z-index: -1;
     left: 50%;
 }
@@ -20,4 +26,66 @@
     left: 0%;
     transition: all 0.5s;
     width: 100%;
+}
+.title{
+    padding: 0 10px;
+    border-bottom: 1px dashed gray;
+}
+/* 多行文本溢出省略 */
+.article-con{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    /* 第四行省略 */
+    -webkit-box-orient: vertical;
+}
+/*  */
+
+
+.link-dark:hover{
+    color: blue !important;
+
+}
+.fs14{
+    font-size: 14px;
+    padding-left:10px ;
+}
+.recommend-a{
+    counter-reset: a;
+    /* 计数器用于父元素 */
+    display: flex;
+}
+.recommend-a>a{
+    display: flex;
+    color: rgb(85, 85, 85);
+    justify-content: space-between;
+    margin: 5px 0;
+}
+.recommend-a>a::before{
+    position: relative;
+    top: 3px;
+    counter-increment: a;
+    /* 调用一次计数一次 */
+    content:counter(a);
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+}
+.recommend-a>a:nth-child(1):before{
+    background-color: red;
+}
+.recommend-a>a:nth-child(2):before{
+    background-color: orangered;
+}
+.recommend-a>a:nth-child(3):before{
+    background-color: rgb(255, 153, 0);
+}
+.recommend-a>a>span{
+    width: calc(100% - 120px);
+}
+.recommend-a>a>em{
+    
 }
