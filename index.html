@@ -16,12 +16,12 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="bg-success-subtle">
+    <header class="bg-success-subtle sticky-top">
       <div class="container-md">
         <nav class="navbar navbar-expand-md bg-body-tertiary bg-success-subtle">
           <!-- navbar-expand-md何时展开 -->
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">NO两年半</a>
+            <a class="navbar-brand" href="./index.html">NO两年半</a>
             <button
               class="navbar-toggler"
               type="button"
@@ -41,7 +41,7 @@
                   href="#"
                   ><span class="iconfont icon-home"> </span>首页</a
                 >
-                <a class="nav-link" href="#">随笔</a>
+                <a class="nav-link" href="list.html">随笔</a>
                 <a class="nav-link" href="#">文章</a>
                 <a class="nav-link" href="#">标签云</a>
                 <a class="nav-link" href="#">留言</a>
@@ -56,7 +56,7 @@
                 href="#"
                 ><span class="iconfont icon-home"> </span>首页</a
               >
-              <a class="nav-link" href="#">随笔</a>
+              <a class="nav-link" href="list.html">随笔</a>
               <a class="nav-link" href="#">文章</a>
               <a class="nav-link" href="#">标签云</a>
               <a class="nav-link" href="#">留言</a>
@@ -484,8 +484,24 @@
                 </div>
             </div>
           </div>
+          <!-- 搜索 -->
+          <div class="bg-body shandow-sm mt-3 p-2 rounded">
+            <h5 class="d-flex title justify-content-between fw-normal">
+              <span class="fs-4">关键字搜索</span>
+            </h5>
+            <form class="row g-2">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="输入关键字" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-success" type="button" id="button-addon2">搜索</button>
+                  </div>
+              </form>
+          </div>
         </div>
       </div>
     </main>
+    <footer class="bg-light text-center mt-3 pt-3">
+        <p></p>
+        <p></p>
+    </footer>
   </body>
 </html>
