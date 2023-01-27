@@ -89,3 +89,12 @@ a {
 .recommend-a>a>em{
     
 }
+.dashed{
+    border-bottom-style: dashed;
+}
+.dashed>span{
+    width: 100px;
+}
+.dashed>a{
+    width: calc(100%-100px);
+}

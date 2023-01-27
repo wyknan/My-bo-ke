@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./popper.min.js" defer></script>
+    <script src="./jquery-3.6.3.min.js" defer></script>
+    <script src=".\bootstrap-5.3.0-alpha1-dist\js\bootstrap.js" defer></script>
+    <link rel="stylesheet" href="./icon-font/iconfont.css" />
+    <link
+      rel="stylesheet"
+      href=".\bootstrap-5.3.0-alpha1-dist\css\bootstrap.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 导航条 -->
+    <header class="bg-success-subtle sticky-top">
+      <div class="container-md">
+        <nav class="navbar navbar-expand-md bg-body-tertiary bg-success-subtle">
+          <!-- navbar-expand-md何时展开 -->
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">NO两年半</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav d-md-none">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  ><span class="iconfont icon-home"> </span>首页</a
+                >
+                <a class="nav-link nav--active" href="list.html">随笔</a>
+                <a class="nav-link" href="#">文章</a>
+                <a class="nav-link" href="#">标签云</a>
+                <a class="nav-link" href="#">留言</a>
+                <a class="nav-link disabled">关于</a>
+              </div>
+            </div>
+            <div class="navbar-nav d-none d-md-flex hover-animate">
+              <!-- 因为是弹性布局用了d-md-flex -->
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./index.html"
+                ><span class="iconfont icon-home"> </span>首页</a
+              >
+              <a class="nav-link nav--active" href="list.html">随笔</a>
+              <a class="nav-link" href="#">文章</a>
+              <a class="nav-link" href="#">标签云</a>
+              <a class="nav-link" href="#">留言</a>
+              <a class="nav-link disabled">关于</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="container-md">
+      <div class="row">
+        <!-- 左边大模块 -->
+        <div class="col-md-8">
+            <div class="bg-body bg-white mt-3 rounded p-2">
+                <!-- 面包屑导航 -->
+                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                    <ol class="breadcrumb m-0 justify-content-end">
+                      <span>当前位置:&nbsp&nbsp</span>  
+                      <li class="breadcrumb-item"><a href="index.html">首页</a></li>
+                      <li class="breadcrumb-item"><a href="index.html">随笔</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">随文章标题</li>
+                    </ol>
+                  </nav>
+            </div>
+            <!-- 文章分类 -->
+            <div class="mt-3 rounded">
+                <button type="button" class="btn btn-light">前端开发<span class="badge bg-secondary">3</span></button>
+                <button type="button" class="btn btn-light">前端开发<span class="badge bg-secondary">3</span></button>
+                <button type="button" class="btn btn-light">前端开发<span class="badge bg-secondary">3</span></button>
+              </div>
+            <!-- 文章详情 -->
+            <div class="bg-body bg-white mt-3 rounded p-2">
+                <h1 class="text-center fs-2">域名解析以及二级域名的实现过程</h1>
+                <p class="border-bottom text-center">
+                    <span class="iconfont icon-rili"></span> 2022-02-31; <span class="iconfont icon-icon_wanggerenyuanguanli"></span> 网格; <span class="
+                    iconfont icon-tongji
+                    "></span> 11
+                </p>
+                <div>
+                    aeffrgjhfisdhufsdddddddddddhfffffffffffffffffffffffffffffffffffff
+                    fdsjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjfdsf
+                    fdsfdsfgfsgtfgsdgfgzsgs
+                </div>
+                <p class="mt-3 mb-2"><a href="#" class="link-dark">上一篇</a></p>
+                <p class="mt-0"><a href="#" class="link-dark">下一篇</a></p>
+            </div>
+        </div>
+        <!-- 右边大模块 -->
+        <div class="col-md-4">
+          <!-- 联系方式 -->
+          <div class="bg-body shandow-sm mt-3 p-2 rounded">
+            <h5 class="d-flex title justify-content-between fw-normal">
+              <span class="fs-4">联系方式</span>
+            </h5>
+            <p class="my-2 fs14">
+              <span class="fw-bold"> 作者: </span>
+              wyknan
+            </p>
+            <p class="my-2 fs14">
+              <span class="fw-bold"> 作者: </span>
+              wyknan
+            </p>
+            <p class="my-2 fs14">
+              <span class="fw-bold"> 作者: </span>
+              wyknan
+            </p>
+            <p class="my-2 fs14">
+              <span class="fw-bold"> 作者: </span>
+              wyknan
+            </p>
+            <p class="my-2 fs14">
+              <span class="fw-bold"> 作者: </span>
+              wyknan
+            </p>
+          </div>
+          <!-- 文章推荐 -->
+          <div class="bg-body bd-white mt-3 p-2 rounded">
+            <!-- 头 -->
+            <div class="title" style="padding: 0;">
+              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    热门文章
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-profile-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-profile"
+                    aria-selected="false"
+                  >
+                    随笔推荐
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <!-- 身体 -->
+            <div class="tab-content" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active recommend-a"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                  tabindex="0"
+                >
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  
+                </div>
+                <div
+                  class="tab-pane fade recommend-a"
+                  id="pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="pills-profile-tab"
+                  tabindex="0"
+                >
+                <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  <a href="#" class="">
+                    <span class="text-truncate">jquary的简单操作233123123</span><em><span class="iconfont icon-eye"></span>33次</em>
+                  </a>
+                  
+                </div>
+            </div>
+          </div>
+          <!-- 搜索 -->
+          <div class="bg-body shandow-sm mt-3 p-2 rounded">
+            <h5 class="d-flex title justify-content-between fw-normal">
+              <span class="fs-4">关键字搜索</span>
+            </h5>
+            <form class="row g-2">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="输入关键字" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-success" type="button" id="button-addon2">搜索</button>
+                  </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-light text-center mt-3 pt-3">
+        <p></p>
+        <p></p>
+    </footer>
+  </body>
+</html>
